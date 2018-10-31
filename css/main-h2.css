@@ -1,0 +1,77 @@
+.footer-logo {
+    margin: 17px 0 20px;
+}
+img {
+    vertical-align: middle;
+}
+hr, img {
+    border: 0;
+}
+*, .form-control {
+    border-radius: 0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.carousel-arrow a .carousel-control:hover, .copyright a, .copyright a:hover, .footer a, .footer a:hover, .service .service-icon, .thumbnail-style h3 a:hover {
+    color: #84bd00;
+}
+.color-green, .header .navbar-nav>.active>a, .linked:hover, a, a.read-more:hover, a:active, a:focus, a:hover {
+    color: #84bd00;
+}
+.footer-v1 address {
+    line-height: 23px;
+}
+.footer-v1 .link-list a, .footer-v1 .link-list i, .footer-v1 address {
+    color: #eee;
+}
+address, dl {
+    margin-bottom: 20px;
+}
+address, blockquote .small, blockquote footer, blockquote small, dd, dt, pre {
+    line-height: 1.42857143;
+}
+.glyphicon, .popover, .tooltip, address {
+    font-style: normal;
+}
+*, .form-control {
+    border-radius: 0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.headline {
+    display: block;
+    margin: 10px 0 25px;
+    border-bottom: 1px dotted #e4e9f0;
+}
+.footer-v1 .footer h2 {
+    color: #eee;
+    font-size: 18px;
+    font-weight: 200;
+}
+.headline h2, .headline h3, .headline h4 {
+    border-bottom: 2px solid #84bd00;
+}
+.headline h2, .headline h3, .headline h4 {
+    margin: 0 0 -2px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.headline h2 {
+    font-size: 22px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #555;
+    margin-top: 5px;
+    text-shadow: none;
+    font-weight: 400;
+}
+h2 {
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.font-open-sans, .purchase span, .title-v1 h1, .title-v1 h2, h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans",Arial,sans-serif;
+}
