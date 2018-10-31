@@ -1,0 +1,36 @@
+.a-cabezera{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 0.9rem 0;
+  letter-spacing: 1.3px;
+}
+.color-cabezera-principal{
+	background-color: #84bd00;
+	width: 100%;
+}
+.color-cabezera{
+	background-color: #fafafa;
+	width: 100%;
+}
+.separacion-dropdown{
+	padding: .0.5rem 0px;
+}
+.modf-header-1{
+	float: right;
+}
+.modf-h3-1{
+	display: block;
+	margin: 0 92px;
+	font-family: 'Roboto', sans-serif;
+}
+.modf-ul-1{
+	margin-right: 106px;
+}
+.modf-img-1{
+	width: 50%;
+  margin-bottom: 8px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
