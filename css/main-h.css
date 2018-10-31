@@ -38,3 +38,12 @@
   margin-left: 90px;
   margin-top: 10px;
 }
+.modf-img-2{
+	height:79vh;
+}
+.modf-a-1{
+	color:#00263a;
+}
+.modf-a-1 :focus{
+	color:##84bd00 !important;
+}
