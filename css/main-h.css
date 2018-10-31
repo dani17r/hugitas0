@@ -24,9 +24,13 @@
 	display: block;
 	margin: 0 92px;
 	font-family: 'Roboto', sans-serif;
+	padding-top: 15px;
 }
 .modf-ul-1{
 	margin-right: 106px;
+}
+.modf-ul-2{
+	margin-right: 92px;
 }
 .modf-img-1{
 	width: 50%;
