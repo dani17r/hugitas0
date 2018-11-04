@@ -1995,3 +1995,111 @@ label, li, li a, p {
 .fa, .glyphicon {
     -moz-osx-font-smoothing: grayscale;
 }
+.no-bottom-space, .no-margin-bottom {
+    margin-bottom: 0!important;
+}
+.title-v1 {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.no-bottom-space, .no-margin-bottom {
+    margin-bottom: 0!important;
+}
+.title-v1 {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.fs-20 {
+    font-size: 20px!important;
+}
+.display-b {
+    display: block!important;
+}
+.title-v1 p {
+    font-size: 17px;
+    font-weight: 200;
+}
+label {
+    color: #777;
+}
+label, li, li a, p {
+    color: #555;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.badge, .label, dt, kbd kbd, label {
+    font-weight: 700;
+}
+.dropcap-bg, span.badge-u, span.label-u {
+    background: #84bd00;
+}
+.list-group-item.active>.badge.badge-u, span.badge-u, span.label-u {
+    background: #72c02c;
+}
+.list-group-item.active>.badge, span.badge {
+    color: #fff;
+    font-weight: 400;
+    padding: 4px 7px;
+}
+.rounded-4x {
+    border-radius: 20px!important;
+}
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+label {
+    color: #777;
+}
+.tag-box-v2 {
+    border-left: solid 2px #84bd00 !important;
+}
+.rounded {
+    border-radius: 4px!important;
+}
+.tag-box-v2, .tag-box-v6 {
+    background: #fafafa;
+}
+.tag-box {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.tag-box-v1, .tag-box-v2 {
+    border: 1px solid #eee;
+}
+.shadow-effect-2 {
+    position: relative;
+}
+.box-shadow {
+    background: #fff;
+    position: relative;
+}
+.margin-right-10 {
+    margin-right: 10px;
+}
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+.axa-cab.axa-cab-azul-10 h2, .axa-cab.axa-cab-azul-10 h2 .axa-cab-icon {
+    color: #00263a!important;
+}
+.axa-cab h2 .axa-cab-icon {
+    font-size: 30px;
+    vertical-align: text-bottom;
+}
+.breadcrumbs h1 {
+    color: #666;
+    font-size: 22px;
+    margin-top: 8px;
+}
