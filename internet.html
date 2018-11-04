@@ -14,6 +14,8 @@
 		<script src="js/libs/popper.min.js"></script>
 		<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 		<script src="js/bootstrap/bootstrap.min.js"></script>
+		<script src="js/libs/modernizr.js"></script>
+
 	</head>
   <body>
     <!--  -->
@@ -121,71 +123,95 @@
                 </div>
             </div>
             <div class="col-sm-8 col-sm-offset-2 col-md-5 col-lg-4 col-lg-offset-1">
-                <img class="sm-margin-bottom-30 md-margin-bottom-30 img-responsive mv-center" src="/assets/img/banners/es/cohete.png">
+                <img class="sm-margin-bottom-30 md-margin-bottom-30 img-responsive mv-center" src="img/cohete.png">
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <div class="tab-v1">
-                    <ul class="nav nav-tabs">
-                        <li class="active"><a target="_blank" href="#page-internet-fibra-tab-caracteristicas" data-toggle="tab">Características</a></li>
-                    </ul>
-                    <div class="tab-content">
-                        <div class="tab-pane fade in active" id="page-internet-fibra-tab-caracteristicas">
-                            <!-- Características -->
-                            <div class="row mt30">
-                                <div class="col-md-6">
-                                    <div class="content-boxes-v5 margin-bottom-30">
-                                        <i class="rounded-x fa fa-dashboard"></i>
-                                        <div class="overflow-h">
-                                            <h4 class="no-top-space mb5">Fibra hasta tu domicilio (FTTH)</h4>
-                                            <p>La fibra hasta tu domicilio garantiza la <strong>velocidad real</strong> de tu conexión.</p>
-                                        </div>
-                                    </div>
-                                    <div class="content-boxes-v5 margin-bottom-30">
-                                        <i class="rounded-x fa fa-download"></i>
-                                        <div class="overflow-h">
-                                            <h4 class="no-top-space mb5">Sin límites de descargas</h4>
-                                            <p>Descarga y comparte todo tipo de contenidos, sin limitaciones ni bloqueos.</p>
-                                        </div>
-                                    </div>
-                                    <div class="content-boxes-v5 margin-bottom-30">
-                                        <i class="rounded-x fa fa-share-alt"></i>
-                                        <div class="overflow-h">
-                                            <h4 class="no-top-space mb5">Conecta todos tus dispositivos</h4>
-                                            <p>Conecta todos tus dispositivos simultáneamente, sin perder calidad en la conexión.</p>
-                                        </div>
+        	<div class="col-md-12">
+            <div class="tab-v1">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a target="_blank" href="#page-internet-fibra-tab-caracteristicas" data-toggle="tab">Características</a></li>
+                    <!-- <li><a href="#page-internet-fibra-tab-especificaciones" data-toggle="tab">Especificaciones</a></li> -->
+                    <!-- <li><a href="#page-internet-fibra-tab-condiciones" data-toggle="tab">Condiciones</a></li> -->
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade in active" id="page-internet-fibra-tab-caracteristicas">
+                        <!-- Características -->
+                        <div class="row mt30">
+                            <div class="col-md-6">
+                                <div class="content-boxes-v5 margin-bottom-30">
+                                    <i class="rounded-x fa fa-dashboard"></i>
+                                    <div class="overflow-h">
+                                        <h4 class="no-top-space mb5">Fibra hasta tu domicilio (FTTH)</h4>
+                                        <p>La fibra hasta tu domicilio garantiza la <strong>velocidad real</strong> de tu conexión.</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="content-boxes-v5 margin-bottom-30">
-                                        <i class="rounded-x fa fa-gamepad"></i>
-                                        <div class="overflow-h">
-                                            <h4 class="no-top-space mb5">HD y juegos online</h4>
-                                            <p>juega online sin cortes de conexión, disfruta de películas, vídeos en HD y streaming.</p>
-                                        </div>
+                                <div class="content-boxes-v5 margin-bottom-30">
+                                    <i class="rounded-x fa fa-download"></i>
+                                    <div class="overflow-h">
+                                        <h4 class="no-top-space mb5">Sin límites de descargas</h4>
+                                        <p>Descarga y comparte todo tipo de contenidos, sin limitaciones ni bloqueos.</p>
                                     </div>
-                                    <div class="content-boxes-v5 margin-bottom-30">
-                                        <i class="rounded-x fa fa-unlock"></i>
-                                        <div class="overflow-h">
-                                            <h4 class="no-top-space mb5">Internet y televisión son independientes</h4>
-                                            <p>La televisión no afecta a la navegación por internet y viceversa.</p>
-                                        </div>
+                                </div>
+                                <div class="content-boxes-v5 margin-bottom-30">
+                                    <i class="rounded-x fa fa-share-alt"></i>
+                                    <div class="overflow-h">
+                                        <h4 class="no-top-space mb5">Conecta todos tus dispositivos</h4>
+                                        <p>Conecta todos tus dispositivos simultáneamente, sin perder calidad en la conexión.</p>
                                     </div>
-                                    <div class="content-boxes-v5 margin-bottom-30">
-                                        <i class="rounded-x fa fa-wrench"></i>
-                                        <div class="overflow-h">
-                                            <h4 class="no-top-space mb5">Servicio de Mantenimiento</h4>
-                                            <p>Disponemos de nuestra propia red de fibra óptica y no dependemos de terceros. </p>
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content-boxes-v5 margin-bottom-30">
+                                    <i class="rounded-x fa fa-gamepad"></i>
+                                    <div class="overflow-h">
+                                        <h4 class="no-top-space mb5">HD y juegos online</h4>
+                                        <p>juega online sin cortes de conexión, disfruta de películas, vídeos en HD y streaming.</p>
+                                    </div>
+                                </div>
+                                <div class="content-boxes-v5 margin-bottom-30">
+                                    <i class="rounded-x fa fa-unlock"></i>
+                                    <div class="overflow-h">
+                                        <h4 class="no-top-space mb5">Internet y televisión son independientes</h4>
+                                        <p>La televisión no afecta a la navegación por internet y viceversa.</p>
+                                    </div>
+                                </div>
+                                <div class="content-boxes-v5 margin-bottom-30">
+                                    <i class="rounded-x fa fa-wrench"></i>
+                                    <div class="overflow-h">
+                                        <h4 class="no-top-space mb5">Servicio de Mantenimiento</h4>
+                                        <p>Disponemos de nuestra propia red de fibra óptica y no dependemos de terceros. </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!--
+                    <div class="tab-pane fade in" id="page-internet-fibra-tab-especificaciones">
+                        <div class="row  mt20">
+                            <div class="col-md-12">
+                                <ul class="list-unstyled">
+                                    <li class="mb5"><i class="fa fa-chevron-circle-right color-green mr10"></i><strong>Nombre especificación:</strong> Detalle especificación.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                    <!--
+                    <div class="tab-pane fade in" id="page-internet-fibra-tab-condiciones">
+                        <div class="row mt20">
+                            <div class="col-md-12">
+                                <p>
+                                    Texto con condiciones
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    -->
                 </div>
             </div>
         </div>
+    		</div>
     </div>
     <!--  -->
     <div class="bg-color-light br-t br-b">
@@ -420,7 +446,7 @@
         <div class="container content-sm">
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-md-3 col-md-offset-0">
-                    <img class="sm-margin-bottom-30 md-margin-bottom-30 img-responsive mv-center" src="/assets/img/banners/paquete.png">
+                    <img class="sm-margin-bottom-30 md-margin-bottom-30 img-responsive mv-center" src="img/paquete.png">
                 </div>
                 <div class="col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-1">
                     <div class="mb40">
@@ -480,7 +506,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3">
-                    <div class="text-center"><img class="sm-margin-bottom-10 md-margin-bottom-10 img-responsive mv-center" src="/assets/img/banners/heroe.png"></div>
+                    <div class="text-center"><img class="sm-margin-bottom-10 md-margin-bottom-10 img-responsive mv-center" src="img/heroe.png"></div>
                 </div>
             </div>
             <div class="row">
@@ -510,72 +536,76 @@
     </div>
     <!--  -->
     <div class="container content-sm">
-        <div class="row mb50">
-            <div class="col-md-7  col-lg-6">
-                <div class="mb40">
-                    <h2 class="color-green sm-margin-bottom-20">WiMAX para zonas donde no llega el cable</h2>
-                    <h4>Llegamos donde no llegan otros.</h4>
-                    <p class="fs-14 sm-margin-bottom-30 md-margin-bottom-30">
-                        La tecnología WiMAX de Axartel acerca la Banda Ancha a municipios donde hasta ahora,
-                        debido a su ubicación, no era posible acceder a este tipo de servicios.
-                        Combínalo con teléfono fijo, televisión y móvil y ahorra en tu factura gracias a nuestros <a href="/precios">paquetes ahorro.</a>
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-5 col-lg-5 col-lg-offset-1">
-                <img class="sm-margin-bottom-30 md-margin-bottom-30 img-responsive mv-center" src="/assets/img/banners/internet-wimax.png">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="tab-v1">
-                    <ul class="nav nav-tabs">
-                        <li class="active"><a target="_blank" href="#page-internet-wimax-tab-caracteristicas" data-toggle="tab">Características</a></li>
-                    </ul>
-                    <div class="tab-content">
-                        <div class="tab-pane fade in active" id="page-internet-wimax-tab-caracteristicas">
-                            <div class="row mt30">
-                                <div class="col-md-6">
-                                    <div class="content-boxes-v5 margin-bottom-30">
-                                        <i class="rounded-x fa fa-download"></i>
-                                        <div class="overflow-h">
-                                            <h4 class="no-top-space mb5">Sin límites de descargas</h4>
-                                            <p>Descarga y comparte todo tipo de contenidos, sin limitaciones ni bloqueos.</p>
-                                        </div>
-                                    </div>
-                                    <div class="content-boxes-v5 margin-bottom-30">
-                                        <i class="rounded-x fa fa-wifi"></i>
-                                        <div class="overflow-h">
-                                            <h4 class="no-top-space mb5">Sin disminuciones del ancho de banda</h4>
-                                            <p>Ideal para conectar varios dispositivos y consolas de videojuegos. Testeado para
-                                                consolas como XBOX, PlayStation3 y Wii.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="content-boxes-v5 margin-bottom-30">
-                                        <i class="rounded-x fa fa-clock-o"></i>
-                                        <div class="overflow-h">
-                                            <h4 class="no-top-space mb5">Tarifa Plana 24 horas</h4>
-                                            <p>Navega con total tranquilidad durante 24 horas todos los días.</p>
-                                        </div>
-                                    </div>
-                                    <div class="content-boxes-v5 margin-bottom-30">
-                                        <i class="rounded-x fa fa-wrench"></i>
-                                        <div class="overflow-h">
-                                            <h4 class="no-top-space mb5">Servicio de Mantenimiento</h4>
-                                            <p>Disponemos de nuestra propia red WiMAX y no depende de terceros. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Cabecera -->
+			    <div class="row mb50">
+			        <div class="col-md-7  col-lg-6">
+			            <div class="mb40">
+			                <h2 class="color-green sm-margin-bottom-20">WiMAX para zonas donde no llega el cable</h2>
+			                <h4>Llegamos donde no llegan otros.</h4>
+			                <p class="fs-14 sm-margin-bottom-30 md-margin-bottom-30">
+			                    La tecnología WiMAX de Axartel acerca la Banda Ancha a municipios donde hasta ahora,
+			                    debido a su ubicación, no era posible acceder a este tipo de servicios.
+			                    Combínalo con teléfono fijo, televisión y móvil y ahorra en tu factura gracias a nuestros <a href="/precios">paquetes ahorro.</a>
+			                </p>
+			            </div>
+			        </div>
+			        <div class="col-md-5 col-lg-5 col-lg-offset-1">
+			            <img class="sm-margin-bottom-30 md-margin-bottom-30 img-responsive mv-center" src="img/internet-wimax.png">
+			        </div>
+			    </div>
+			    <div class="row">
+			        <div class="col-md-12">
+			            <div class="tab-v1">
+			                <ul class="nav nav-tabs">
+			                    <li class="active"><a target="_blank" href="#page-internet-wimax-tab-caracteristicas" data-toggle="tab">Características</a></li>
+
+			                </ul>
+			                <div class="tab-content">
+			                    <div class="tab-pane fade in active" id="page-internet-wimax-tab-caracteristicas">
+			                        <!-- Características -->
+			                        <div class="row mt30">
+			                            <div class="col-md-6">
+			                                <div class="content-boxes-v5 margin-bottom-30">
+			                                    <i class="rounded-x fa fa-download"></i>
+			                                    <div class="overflow-h">
+			                                        <h4 class="no-top-space mb5">Sin límites de descargas</h4>
+			                                        <p>Descarga y comparte todo tipo de contenidos, sin limitaciones ni bloqueos.</p>
+			                                    </div>
+			                                </div>
+			                                <div class="content-boxes-v5 margin-bottom-30">
+			                                    <i class="rounded-x fa fa-wifi"></i>
+			                                    <div class="overflow-h">
+			                                        <h4 class="no-top-space mb5">Sin disminuciones del ancho de banda</h4>
+			                                        <p>Ideal para conectar varios dispositivos y consolas de videojuegos. Testeado para
+			                                            consolas como XBOX, PlayStation3 y Wii.
+			                                        </p>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="col-md-6">
+			                                <div class="content-boxes-v5 margin-bottom-30">
+			                                    <i class="rounded-x fa fa-clock-o"></i>
+			                                    <div class="overflow-h">
+			                                        <h4 class="no-top-space mb5">Tarifa Plana 24 horas</h4>
+			                                        <p>Navega con total tranquilidad durante 24 horas todos los días.</p>
+			                                    </div>
+			                                </div>
+			                                <div class="content-boxes-v5 margin-bottom-30">
+			                                    <i class="rounded-x fa fa-wrench"></i>
+			                                    <div class="overflow-h">
+			                                        <h4 class="no-top-space mb5">Servicio de Mantenimiento</h4>
+			                                        <p>Disponemos de nuestra propia red WiMAX y no depende de terceros. </p>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </div>
+
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
     <!--  -->
     <div class="bg-color-light br-t br-b">
         <div class="container content-sm">
@@ -841,5 +871,186 @@
         </div>
     </div>
     <!--  -->
+		<div class="footer-v1">
+			    <div class="footer">
+			        <div class="container">
+			            <div class="row">
+			                <div class="col-md-3 map-img md-margin-bottom-40">
+			                    <a href="#">
+			                        <img id="logo-footer" class="footer-logo" src="img/logo-h150-fondo.png" alt="">
+			                    </a>
+			                    <address class="md-margin-bottom-40">
+			                        C/ Valle de Vidriales, 23 <br>
+			                        Pol. Ind. Los Zamoranos <br>
+			                        29700 Vélez-Málaga<br>
+			                        Málaga, España <br>
+			                        T: (+34) 951 238 600 <br>
+			                        F: (+34) 951 247 992 <br>
+			                        E: <a href="#" class="">info@axartel.es
+			                        </a>
+			                    </address>
+			                </div>
+			                <div class="col-md-3 md-margin-bottom-40">
+			                    <div class="posts">
+			                        <div class="headline"><h2>Destacado</h2></div>
+			                        <ul class="list-unstyled latest-list">
+			                            <li>
+			                                <a href="#">Configura tu oferta</a>
+			                                <small>Combina los servicios que necesites</small>
+			                            </li>
+			                            <li>
+			                                <a href="#">Comprueba tu cobertura</a>
+			                                <small>Comprueba qué servicios llegan a tu domicilio</small>
+			                            </li>
+			                            <li>
+			                                <a href="#">Nuestras Tiendas</a>
+			                                <small>Encuentra tu tienda más cercana</small>
+			                            </li>
+			                            <li>
+			                                <a href="#">Mejora tu Wifi</a>
+			                                <small>Alta velocidad en La Axarquía</small>
+			                            </li>
+			                            <li>
+			                                <a href="#" target="_blank">Área de clientes</a>
+			                                <small>Consulta tus facturas y configura tus servicios.</small>
+			                            </li>
+			                            <li>
+			                                <a href="#" target="_blank">Área de distribuidores</a>
+			                                <small>Gestiona tu información de negocio.</small>
+			                            </li>
+			                        </ul>
+			                    </div>
+			                </div>
+			                <div class="col-md-3 md-margin-bottom-40">
+			                    <div class="headline"><h2>Servicios</h2></div>
+			                    <ul class="list-unstyled link-list">
+			                        <li><a href="#">Internet</a><i class="fa fa-angle-right"></i></li>
+			                        <li><a href="#">Móvil</a><i class="fa fa-angle-right"></i></li>
+			                        <li><a href="#">Telefonía Fija</a><i class="fa fa-angle-right"></i></li>
+			                        <li><a href="#">Televisión</a><i class="fa fa-angle-right"></i></li>
+			                        <li><a href="#">Precios</a><i class="fa fa-angle-right"></i></li>
+			                        <li><a href="#">Paquetes</a><i class="fa fa-angle-right"></i></li>
+			                        <li><a href="#">Ventajas</a><i class="fa fa-angle-right"></i></li>
+			                        <li><a href="#">Contacto</a><i class="fa fa-angle-right"></i></li>
+			                    </ul>
+			                </div>
+			                <div class="col-md-3 md-margin-bottom-40">
+			                    <div class="headline">
+			                        <h2>¿Necesitas ayuda?</h2>
+			                    </div>
+			                    <p>Llámanos al 951 238 600, o si lo prefieres, déjanos tú teléfono y nosotros te llamamos.</p>
+			                    <form id="formulario-llamada">
+			                        <fieldset>
+			                            <div class="row">
+			                                <div class="col-md-12 col-md-offset-0">
+			                                    <div class="form-group" id="page-footer-campo-nombre-container">
+			                                        <input type="text" class="form-control input-sm rounded" id="page-footer-campo-nombre" name="nombre" placeholder="Nombre" maxlength="50">
+			                                        <span id="page-footer-campo-nombre-help-block" class="help-block"></span>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="row">
+			                                <div class="col-md-12 col-md-offset-0">
+			                                    <div class="form-group" id="page-footer-campo-apellidos-container">
+			                                        <input type="text" class="form-control input-sm rounded" id="page-footer-campo-apellidos" name="apellidos" placeholder="Apellidos" maxlength="50">
+			                                        <span id="page-footer-campo-apellidos-help-block" class="help-block"></span>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="row">
+			                                <div class="col-md-12 col-md-offset-0">
+			                                    <div class="form-group" id="page-footer-campo-email-container">
+			                                        <input type="email" class="form-control input-sm rounded" id="page-footer-campo-email" name="email" placeholder="Email" maxlength="250">
+			                                        <span id="page-footer-campo-email-help-block" class="help-block"></span>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="row">
+			                                <div class="col-md-12 col-md-offset-0">
+			                                    <div class="form-group" id="page-footer-campo-prefijo-container">
+			                                        <select class="form-control  input-sm rounded" id="page-footer-campo-prefijo" name="prefijo">
+			                                            <option value="93" data-pais="Afganistán" data-iso2="AF" data-iso3="AFG">Venezuela +58</option><option value="355" data-pais="Albania" data-iso2="AL" data-iso3="ALB">chile +56</option>
+																							</select>
+			                                        <span id="page-footer-campo-prefijo-help-block" class="help-block"></span>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="row">
+			                                <div class="col-md-12 col-md-offset-0">
+			                                    <div class="form-group" id="page-footer-campo-telefono-container">
+			                                        <input type="text" class="form-control input-sm rounded" id="page-footer-campo-telefono" name="telefono" placeholder="Teléfono" maxlength="15">
+			                                        <span id="page-footer-campo-telefono-help-block" class="help-block"></span>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="row">
+			                                <div class="col-md-12 col-md-offset-0">
+			                                    <!-- Campo Localidad -->
+			                                    <div class="form-group" id="page-footer-campo-localidad-container">
+			                                        <input type="localidad" class="form-control input-sm rounded" id="page-footer-campo-localidad" name="localidad" maxlength="30" placeholder="Localidad">
+			                                        <span id="page-footer-campo-localidad-help-block" class="help-block"></span>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <div class="row">
+			                                <div class="col-md-12 margin-bottom-10 col-md-offset-0">
+			                                    <div class="checkbox" id="page-footer-campo-condiciones-container">
+			                                        <label>
+			                                            <input type="checkbox" id="page-footer-campo-condiciones" name="condiciones"> Acepto la <a rel="nofollow" href="#" data-toggle="modal" data-target="#page-footer-modal-clausula-lopd">cláusula LOPD</a>
+			                                        </label>
+			                                        <span id="page-footer-campo-condiciones-help-block" class="help-block"></span>
+			                                    </div>
+			                                </div>
+			                            </div>
+			                            <p class="clearfix">
+			                                <button type="button" class="btn-u btn-sm rounded pull-right" id="page-footer-ctrl-llamar">Llamadme ahora<i class="fa fa-refresh fa-spin margin-left-10" style="display: none"></i></button>
+			                            </p>
+			                        </fieldset>
+			                    </form>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			    <div class="copyright">
+			        <div class="container">
+			            <div class="row">
+			                <div class="col-md-8">
+			                    <p>
+			                        © 2016 Axartel Comunicaciones, S.L. <br class="visible-xs">
+			                        <a rel="nofollow" href="#">Aviso Legal</a> | <a rel="nofollow" href="#">Política de Privacidad</a> | <a rel="nofollow" href="#">Política de Cookies</a>
+			                    </p>
+			                </div>
+			                <div class="col-md-4">
+			                    <ul class="footer-socials list-inline">
+			                        <li>
+			                            <h5 class="axa-azul-70">¡Síguenos!</h5>
+			                        </li>
+			                        <li>
+			                            <a href="#" target="_blank" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+			                                <i class="fa fa-facebook"></i>
+			                            </a>
+			                        </li>
+			                        <li>
+			                            <a href="#" target="_blank" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+			                                <i class="fa fa-twitter"></i>
+			                            </a>
+			                        </li>
+			                        <li>
+			                            <a rel="publisher" href="#" target="_blank" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
+			                                <i class="fa fa-google-plus"></i>
+			                            </a>
+			                        </li>
+			                        <li>
+			                            <a href="#" target="_blank" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+			                                <i class="fa fa-linkedin"></i>
+			                            </a>
+			                        </li>
+			                    </ul>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+			<!--  -->
   </body>
 </html>

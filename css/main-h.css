@@ -11,7 +11,8 @@
 	width: 100%;
 }
 .color-cabezera{
-	background-color: #fafafa;
+	background: #fff;
+  box-shadow: 0 0 5px #bbb;
 	width: 100%;
 }
 .separacion-dropdown{
