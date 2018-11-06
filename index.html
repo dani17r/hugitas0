@@ -138,7 +138,7 @@
 			                    <p class="mb30 color-green fs-20 font-light" style="letter-spacing: 0.5px;">
 			                        <span class="fs-30">¡Nuestra red no para de crecer!</span><br><span>Ya puedes disfrutar de un servicio de calidad a un precio ajustado</span>
 			                    </p>
-			                    <a class="btn-u  btn-u-lg rounded" href="#">COMPROBAR COBERTURA</a>
+			                    <a class="btn-u  btn-u-lg rounded" data-toggle="modal" data-target="#exampleModal">COMPROBAR COBERTURA</a>
 			                </div>
 			            </div>
 			        </div>
@@ -156,7 +156,7 @@
 		</div>
 		<!--  -->
 		<div class="bg-light mn br-n" id="call-to-action-megavillanos-v2-body">
-    <div class="container content">
+    	<div class="container content">
         <div class="row">
             <div class="col-md-5">
                 <div class="owl-carousel-v4 margin-bottom-40">
@@ -193,13 +193,13 @@
                         <li><i class="fa fa-angle-right"></i>Sin subidas en tu cuota mensual</li>
                         <li><i class="fa fa-angle-right"></i>Sin sorpresas en tu factura</li>
                     </ul>
-                    <a href="#" class="btn-u btn-u-sm rounded">MÁS INFO</a>
+                    <a class="btn-u btn-u-sm rounded" data-toggle="modal" data-target="#exampleModal">MÁS INFO</a>
                 </div>
             </div>
 
         </div>
     </div>
-</div>
+		</div>
 		<!--  -->
 		<div class="call-action-v1 bg-color-light axa-cab axa-cab-azul-10" id="content-part-paquetes-y-ofertas-title">
 		    <div class="container">
@@ -507,8 +507,8 @@
 		            </div>
 		        </div>
 		        <div class="col-md-12">
-		            <a class="btn btn-u rounded" href="#">Ver todos los paquetes</a>
-		            <a class="btn btn-u rounded" href="#">Configurar mi paquete</a>
+		            <a class="btn btn-u rounded" data-toggle="modal" data-target="#exampleModal">Ver todos los paquetes</a>
+		            <a class="btn btn-u rounded" data-toggle="modal" data-target="#exampleModal">Configurar mi paquete</a>
 		        </div>
 		    </div>
 		    <div class="row" id="content-part-paquetes-y-ofertas-wimax-title">
@@ -767,8 +767,8 @@
 		            </div>
 		        </div>
 		        <div class="col-md-12">
-		            <a class="btn btn-u rounded" href="#">Ver todos los paquetes</a>
-		            <a class="btn btn-u rounded" href="#">Configurar mi paquete</a>
+		            <a class="btn btn-u rounded" data-toggle="modal" data-target="#exampleModal">Ver todos los paquetes</a>
+		            <a class="btn btn-u rounded" data-toggle="modal" data-target="#exampleModal">Configurar mi paquete</a>
 		        </div>
 		    </div>
 		    <div class="margin-bottom-60"></div>
@@ -807,7 +807,7 @@
 		                    <li><i class="fa fa-angle-right"></i>Soporta IPTV</li>
 		                    <li><i class="fa fa-angle-right"></i>Descuentos para comunidades</li>
 		                </ul>
-		                <a href="#" class="btn-u btn-u-sm rounded">Ver Tarifas</a>
+		                <a href="#" class="btn-u btn-u-sm rounded" data-toggle="modal" data-target="#exampleModal">Ver Tarifas</a>
 		            </div>
 		        </div>
 			    </div>
@@ -839,7 +839,7 @@
 		                Combínalo con internet y teléfono fijo y ahorra en tu factura.
 		            </p>
 		            <div class="clearfix">
-		                <a href="#" class="btn btn-u rounded md-margin-bottom-20">Más información</a>
+		                <a href="#" class="btn btn-u rounded md-margin-bottom-20" data-toggle="modal" data-target="#exampleModal">Más información</a>
 		            </div>
 		        </div>
 		        <div class="col-md-9">
@@ -1325,7 +1325,7 @@
 			                                </div>
 			                            </div>
 			                            <p class="clearfix">
-			                                <button type="button" class="btn-u btn-sm rounded pull-right" id="page-footer-ctrl-llamar">Llamadme ahora<i class="fa fa-refresh fa-spin margin-left-10" style="display: none"></i></button>
+			                                <button type="button" class="btn-u btn-sm rounded pull-right" id="page-footer-ctrl-llamar" data-toggle="modal" data-target="#exampleModal">Llamadme ahora<i class="fa fa-refresh fa-spin margin-left-10" style="display: none"></i></button>
 			                            </p>
 			                        </fieldset>
 			                    </form>
@@ -1375,4 +1375,34 @@
 			</div>
 			<!--  -->
 	</body>
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title text-center" id="exampleModalLabel">Contactanos</h1>
+		      </div>
+		      <div class="modal-body">
+		        <form>
+		          <div class="form-group">
+		            <label for="name-lastname" class="col-form-label">Nombre y apellido:</label>
+		            <input type="text" class="form-control">
+		          </div>
+		          <div class="form-group">
+		            <label for="email" class="col-form-label">Correo electronico:</label>
+		            <input type="text" class="form-control">
+		          </div>
+		          <div class="form-group">
+		            <label for="message-text" class="col-form-label">Deja tu mensaje:</label>
+		            <textarea class="form-control"></textarea>
+		          </div>
+		        </form>
+		      </div>
+		      <div class="modal-footer">
+						<button type="button" class="btn-u rounded">Enviar mensaje</button>
+		        <button type="button" class="btn btn-secondary rounded" data-dismiss="modal">Cerrar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 </html>
