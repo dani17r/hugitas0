@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^/?$ vistas/index.php
+RewriteRule ^ventajas?$ vistas/nuestras-ventajas.php
+RewriteRule ^contacto?$ vistas/contacto.php
+RewriteRule ^cobertura?$ vistas/cobertura.php
+RewriteRule ^internet?$ vistas/internet.php
