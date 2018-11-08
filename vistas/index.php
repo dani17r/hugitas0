@@ -1,9 +1,54 @@
-<?php 
+<?php
 	require_once 'header.php';
 ?>
-		<!--  -->
-		<div class="img-responsive">
-			<img class="w-100" src="img/slider-comunidades-fondo.jpg">
+		<div id="page-inicio-layerslider" style="width: 100%; height: 500px;">
+		    <div class="ls-slide" data-ls="slidedelay: 6000;slidedirection: right;transition2d: 92,93,105;" style="slidedirection: right; transition2d: 92,93,105; ">
+		        <img src="img/slider-megavillanos-fondo.jpg" class="ls-bg" alt="Slide background">
+		        <img src="img/slider-megavillanos-titulo.png" alt="Slider Image" class="ls-s-1" style="top:30px; left: 20px; slidedirection: top; slideoutdirection: bottom; durationin: 1000;">
+		        <img src="img/slider-megavillanos.png" alt="Slider Image" class="ls-s-1" style="top:50%; left: -30px; slidedirection : left; slideoutdirection : bottom; durationin : 1000; ">
+		        <img src="img/slider-megavillanos-textos.png" alt="Slider Image" class="ls-s-1" style="top:85%; left: 20px; slidedirection: bottom; slideoutdirection: bottom; durationin: 2000;">
+		        <img src="img/slider-megavillanos-heroe-1.png" alt="Slider Image" class="ls-s-1" style="top:30px; left: 580px; slidedirection : right; slideoutdirection : bottom; durationin : 4000; ">
+
+		    </div>
+		    <div class="ls-slide" style="slidedirection: right; transition2d: 92,93,105; ">
+		        <img src="img/slider-torrox-ciudad.jpg" class="ls-bg" alt="Slide background">
+		        <span class="ls-s-1" style="color: #fff; line-height:45px; font-weight: 200; font-size: 35px;  top:70%; left: 620px; slidedirection : right; slideoutdirection : bottom; durationin : 2000; durationout : 2000; ">
+		            <i>Ya estamos en <strong>TORROX</strong></i>
+		        </span>
+		        <img src="img/slider-torrox-cohete.png" alt="Slider Image" class="ls-s-1" style="  top:45%; slidedirection : left; slideoutdirection : right; durationin : 1000; durationout : 1000; ">
+		    </div>
+		    <div class="ls-slide" data-ls="slidedelay: 6000;slidedirection: right;transition2d: 92,93,105;" style="slidedirection: right; transition2d: 92,93,105; ">
+		        <img src="img/slider-supertarifa-fondo.jpg" class="ls-bg" alt="Slide background">
+		        <img src="img/slider-supertarifa-titulo.png" alt="Slider Image" class="ls-s-1" style="  top:50px; left: 25px; slidedirection : top; slideoutdirection : bottom; durationin : 200; ">
+		        <img src="img/slider-supertarifa-heroe-1.png" alt="Slider Image" class="ls-s-1" style="top:-10px; left: 600px; slidedirection : bottom; slideoutdirection : bottom; durationin : 600; ">
+		        <img src="img/slider-supertarifa-oferta-1.png" alt="Slider Image" class="ls-s-1" style="top:155px; left: 25px; slidedirection : left; slideoutdirection : bottom; durationin : 2000; ">
+		        <img src="img/slider-supertarifa-precio.png" alt="Slider Image" class="ls-s-1" style="top:300px; left: 100px; slidedirection : bottom; slideoutdirection : bottom; durationin : 4000;">
+		    </div>
+		    <div class="ls-slide" style="slidedirection: right; transition2d: 92,93,105; ">
+		        <img src="img/slider-wimax-fondo.jpg" class="ls-bg" alt="Slide background">
+		        <span class="ls-s-1" style="color: #fff; line-height:45px; font-weight: 200; font-size: 35px; top:125px; left: 50px; slidedirection : top; slideoutdirection : bottom; durationin : 1000; durationout : 1000; ">
+		            <span class="font-bold">WIMAX</span> <br> ¡LLEGAMOS DONDE<br>NO LLEGA NADIE!
+		        </span>
+		        <a class="btn-u btn-u-orange rounded ls-s-1" href="internet.html#wimax" style=" padding: 9px 20px; font-size:25px; top:275px; left: 50px; slidedirection : bottom; slideoutdirection : bottom; durationin : 2000; durationout : 2000; ">Ver ofertas</a>
+		        <img src="img/slider-wimax-casa.png" alt="Slider Image" class="ls-s-1" style=" top:90px; left: 620px; slidedirection : right; slideoutdirection : bottom; durationin : 3000; durationout : 3000; ">
+		    </div>
+		    <div class="ls-slide" style="slidedirection: right; transition2d: 92,93,105; ">
+		        <img src="img/slider-paygo-fondo.jpg" class="ls-bg" alt="Slide background">
+		        <img src="img/slider-paygo-calendario.png" alt="Slider Image" class="ls-s-1" style="  top:50%; left: 35%; slidedirection : top; slideoutdirection : bottom; durationin : 1000; durationout : 1000; ">
+		        <span class="ls-s-1" style="color: #fff; line-height:45px; font-weight: 200; font-size: 35px;  top:90px; left: 620px; slidedirection : right; slideoutdirection : bottom; durationin : 2000; durationout : 2000; ">
+		            <span class="font-bold">PAGO POR USO</span> <br> Activa tu conexión <br> cuando la necesites
+		        </span>
+		        <a class="btn-u rounded ls-s-1" href="tarifas-temporales.html" style=" padding: 9px 20px; font-size:25px; top:250px; left: 620px; slidedirection : bottom; slideoutdirection : bottom; durationin : 3000; durationout : 3000; ">Ver Tarifas</a>
+		    </div>
+		    <div class="ls-slide" style="slidedirection: right; transition2d: 92,93,105; ">
+		        <img src="img/slider-comunidades-fondo.jpg" class="ls-bg" alt="Slide background">
+		        <img src="img/slider-comunidades-edificios.png" alt="Slider Image" class="ls-s-1" style="  top:-10px; left: 270px; slidedirection : bottom; slideoutdirection : bottom; durationin : 1000; durationout : 1000; ">
+		        <img src="img/slider-comunidades-edificios.png" alt="Slider Image" class="ls-s-1" style="  top:-10px; left: 0px; slidedirection : bottom; slideoutdirection : bottom; durationin : 500; durationout : 500; ">
+		        <span class="ls-s-1" style="color: #fff; line-height:45px; font-weight: 200; font-size: 35px;  top:140px; left: 620px; slidedirection : right; slideoutdirection : bottom; durationin : 2000; durationout : 2000; ">
+		            <span class="font-bold">DESCUENTOS</span> <br> <span class="font-bold">PARA</span> <br> <strong>COMUNIDADES</strong>
+		        </span>
+		        <a class="btn-u btn-u-orange rounded ls-s-1" href="contacto.html" style=" padding: 9px 20px; font-size:25px; top:300px; left: 620px; slidedirection : bottom; slideoutdirection : bottom; durationin : 3000; durationout : 3000; ">Infórmate</a>
+		    </div>
 		</div>
 		<!--  -->
 		<div class="purchase" id="content-part-quienes-somos">
@@ -51,49 +96,155 @@
 		</div>
 		<!--  -->
 		<div class="bg-light mn br-n" id="call-to-action-megavillanos-v2-body">
-    	<div class="container content">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="owl-carousel-v4 margin-bottom-40">
-                    <div class="owl-slider-v4 owl-carousel owl-theme owl-loaded" id="carousel-nuestras-ventajas">
-											<div class="owl-stage-outer">
-												<div class="owl-stage">
-														<div class="owl-item active" style="width: 458px; margin-right: 10px;">
-															<div class="item">
-			                            <div class="shadow-wrapper">
-			                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
-			                                    <h4 class="axa-verde-100">
-																						<span class="fa fa-check-circle mr5"></span>SIN COMPLICACIONES
-																					</h4>
-			                                    <hr class="mt5 mb15">
-			                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-complicaciones.png" alt="Sin complicaciones">
-			                                </div>
-			                            </div>
-			                        </div>
-														</div>
+		    <div class="container content">
+		        <!-- Cabecera -->
+		        <div class="row">
+		            <div class="col-md-5">
+		                <div class="owl-carousel-v4 margin-bottom-40">
+		                    <div class="owl-slider-v4 owl-carousel owl-theme owl-loaded" id="carousel-nuestras-ventajas">
+		                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3276px, 0px, 0px); transition: all 0s ease 0s; width: 5148px;"><div class="owl-item cloned" style="width: 458px; margin-right: 10px;"><div class="item">
+		                            <div class="shadow-wrapper">
+		                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
+		                                    <h4 class="axa-verde-100"><span class="fa fa-check-circle mr5"></span>SIN ACOSOS</h4>
+		                                    <hr class="mt5 mb15">
+		                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-acosos.png" alt="Sin acosos">
+		                                </div>
+		                            </div>
+		                        </div></div><div class="owl-item cloned" style="width: 458px; margin-right: 10px;"><div class="item">
+		                            <div class="shadow-wrapper">
+		                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
+		                                    <h4 class="axa-verde-100"><span class="fa fa-check-circle mr5"></span>SIN LÍMITES</h4>
+		                                    <hr class="mt5 mb15">
+		                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-limites.png" alt="Sin límites">
+		                                </div>
+		                            </div>
+		                        </div></div><div class="owl-item" style="width: 458px; margin-right: 10px;"><div class="item">
+		                            <div class="shadow-wrapper">
+		                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
+		                                    <h4 class="axa-verde-100"><span class="fa fa-check-circle mr5"></span>SIN COSTES OCULTOS</h4>
+		                                    <hr class="mt5 mb15">
+		                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-costes-ocultos.png" alt="Sin costes ocultos">
+		                                </div>
+		                            </div>
+		                        </div></div><div class="owl-item" style="width: 458px; margin-right: 10px;"><div class="item">
+		                            <div class="shadow-wrapper">
+		                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
+		                                    <h4 class="axa-verde-100"><span class="fa fa-check-circle mr5"></span>SIN PROMOCIONES TRAMPA</h4>
+		                                    <hr class="mt5 mb15">
+		                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-promociones-trampa.png" alt="Sin promociones trampa">
+		                                </div>
+		                            </div>
+		                        </div></div><div class="owl-item" style="width: 458px; margin-right: 10px;"><div class="item">
+		                            <div class="shadow-wrapper">
+		                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
+		                                    <h4 class="axa-verde-100"><span class="fa fa-check-circle mr5"></span>SIN REGALOS SOSPECHOSOS</h4>
+		                                    <hr class="mt5 mb15">
+		                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-regalos-sospechosos.png" alt="Sin regalos sospechosos">
+		                                </div>
+		                            </div>
+		                        </div></div><div class="owl-item" style="width: 458px; margin-right: 10px;"><div class="item">
+		                            <div class="shadow-wrapper">
+		                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
+		                                    <h4 class="axa-verde-100"><span class="fa fa-check-circle mr5"></span>SIN COMPLICACIONES</h4>
+		                                    <hr class="mt5 mb15">
+		                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-complicaciones.png" alt="Sin complicaciones">
+		                                </div>
+		                            </div>
+		                        </div></div><div class="owl-item" style="width: 458px; margin-right: 10px;"><div class="item">
+		                            <div class="shadow-wrapper">
+		                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
+		                                    <h4 class="axa-verde-100"><span class="fa fa-check-circle mr5"></span>SIN ENREDOS</h4>
+		                                    <hr class="mt5 mb15">
+		                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-enredos.png" alt="Sin enredos">
+		                                </div>
+		                            </div>
+		                        </div></div><div class="owl-item active" style="width: 458px; margin-right: 10px;"><div class="item">
+		                            <div class="shadow-wrapper">
+		                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
+		                                    <h4 class="axa-verde-100"><span class="fa fa-check-circle mr5"></span>SIN ACOSOS</h4>
+		                                    <hr class="mt5 mb15">
+		                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-acosos.png" alt="Sin acosos">
+		                                </div>
+		                            </div>
+		                        </div></div><div class="owl-item" style="width: 458px; margin-right: 10px;"><div class="item">
+		                            <div class="shadow-wrapper">
+		                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
+		                                    <h4 class="axa-verde-100"><span class="fa fa-check-circle mr5"></span>SIN LÍMITES</h4>
+		                                    <hr class="mt5 mb15">
+		                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-limites.png" alt="Sin límites">
+		                                </div>
+		                            </div>
+		                        </div></div><div class="owl-item cloned" style="width: 458px; margin-right: 10px;"><div class="item">
+		                            <div class="shadow-wrapper">
+		                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
+		                                    <h4 class="axa-verde-100"><span class="fa fa-check-circle mr5"></span>SIN COSTES OCULTOS</h4>
+		                                    <hr class="mt5 mb15">
+		                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-costes-ocultos.png" alt="Sin costes ocultos">
+		                                </div>
+		                            </div>
+		                        </div></div><div class="owl-item cloned" style="width: 458px; margin-right: 10px;"><div class="item">
+		                            <div class="shadow-wrapper">
+		                                <div class="tag-box tag-box-v3 box-shadow shadow-effect-4 pt5">
+		                                    <h4 class="axa-verde-100"><span class="fa fa-check-circle mr5"></span>SIN PROMOCIONES TRAMPA</h4>
+		                                    <hr class="mt5 mb15">
+		                                    <img class="img-responsive mv-center" src="img/axartel-ventajas-sin-promociones-trampa.png" alt="Sin promociones trampa">
+		                                </div>
+		                            </div>
+		                        </div>
+													</div>
+												</div>
+											</div>
+											<div class="owl-controls">
+												<div class="owl-nav">
+													<div class="owl-prev" style="display: none;">prev</div>
+													<div class="owl-next" style="display: none;">next</div>
+												</div>
+												<div class="owl-dots" style="">
+													<div class="owl-dot">
+														<span></span>
+													</div>
+													<div class="owl-dot">
+														<span></span>
+													</div>
+													<div class="owl-dot">
+														<span></span>
+													</div>
+													<div class="owl-dot">
+														<span></span>
+													</div>
+													<div class="owl-dot">
+														<span></span>
+													</div>
+													<div class="owl-dot active">
+														<span></span>
+													</div>
+													<div class="owl-dot">
+														<span>
+														</span>
+													</div>
 												</div>
 											</div>
 										</div>
-                </div>
-            </div>
-            <div class="col-md-6 col-md-offset-1">
-                <div class="mb40">
-                    <h2 class="color-green sm-margin-bottom-20 font-bold"><i>SUPERTARIFA VS MEGAVILLANOS</i></h2>
-                    <p class="lead margin-bottom-5 font-bold">¿Todavía te crees los anuncios de otros operadores?</p>
-                    <p class="fs-14 mb20">
-                        En Hybtel no empleamos <b>ni engaños ni trucos</b> para ofrecerte un buen servicio a un precio justo:
-                    </p>
-                    <ul class="list-unstyled lists-v1 mb20 fs-14">
-                        <li><i class="fa fa-angle-right"></i>Sin cuota de línea</li>
-                        <li><i class="fa fa-angle-right"></i>Sin subidas en tu cuota mensual</li>
-                        <li><i class="fa fa-angle-right"></i>Sin sorpresas en tu factura</li>
-                    </ul>
-                    <a class="btn-u btn-u-sm rounded" href="nuestras-ventajas.html">MÁS INFO</a>
-                </div>
-            </div>
+		                </div>
+		            </div>
+		            <div class="col-md-6 col-md-offset-1">
+		                <div class="mb40">
+		                    <h2 class="color-green sm-margin-bottom-20 font-bold"><i>SUPERTARIFA VS MEGAVILLANOS</i></h2>
+		                    <p class="lead margin-bottom-5 font-bold">¿Todavía te crees los anuncios de otros operadores?</p>
+		                    <p class="fs-14 mb20">
+		                        En Axartel no empleamos <b>ni engaños ni trucos</b> para ofrecerte un buen servicio a un precio justo:
+		                    </p>
+		                    <ul class="list-unstyled lists-v1 mb20 fs-14">
+		                        <li><i class="fa fa-angle-right"></i>Sin cuota de línea</li>
+		                        <li><i class="fa fa-angle-right"></i>Sin subidas en tu cuota mensual</li>
+		                        <li><i class="fa fa-angle-right"></i>Sin sorpresas en tu factura</li>
+		                    </ul>
+		                    <a href="#" class="btn-u btn-u-sm rounded">MÁS INFO</a>
+		                </div>
+		            </div>
 
-        </div>
-    </div>
+		        </div>
+		    </div>
 		</div>
 		<!--  -->
 		<div class="call-action-v1 bg-color-light axa-cab axa-cab-azul-10" id="content-part-paquetes-y-ofertas-title">
@@ -1088,6 +1239,8 @@
 		        </div>
 		    </div>
 		</div>
-<?php 
+
+
+<?php
 	require_once 'footer.php';
 ?>
