@@ -1,4 +1,7 @@
-      <div id="page-inicio-layerslider" style="width: 100%; height: 500px;">
+	 <?php
+		require_once 'header.php';
+	 ?>
+     <div id="page-inicio-layerslider" style="width: 100%; height: 500px;">
           <div class="ls-slide" data-ls="slidedelay: 6000;slidedirection: right;transition2d: 92,93,105;" style="slidedirection: right; transition2d: 92,93,105; ">
               <img src="img/slider-megavillanos-fondo.jpg" class="ls-bg" alt="Slide background">
               <img src="img/slider-megavillanos-titulo.png" alt="Slider Image" class="ls-s-1" style="top:30px; left: 20px; slidedirection: top; slideoutdirection: bottom; durationin: 1000;">
@@ -936,3 +939,6 @@
           </div>
       </div>
 		<!--  -->
+	<?php
+	 require_once 'footer.php';
+	?>
